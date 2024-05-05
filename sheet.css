@@ -1,0 +1,39 @@
+
+ *{background-color: rgb(0, 0, 0); border-radius: 20px; margin: 0 auto;}
+ 
+ #header {text-align: center; display: flex; background-color: black;}
+  #circle {height: 300px; width: 300px; line-height: 200px; border-radius: 70%;
+        background-color: white; overflow: hidden; margin-top: 100; 
+}
+  #profile {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+  #title {writing-mode: vertical-lr; background-color: black; border-right: gray;} 
+  #s-title {margin-top: 200; width: 400;background-color: black;}
+  #r-title {display: block; margin-top: 200px; background-color: black;}
+  #l-inform {padding: 0 auto; background-color: black;}
+  ul,li{margin: 0;padding: 0;}
+  #menu {margin-left: 100px; margin-top: 50; list-style: none; display: flex; text-align: center; background-color: black;}
+   .menu-item {color: gray ; background-color: lightgray; flex-grow: 1; transition: 0.5s;  padding: 20; border-radius: 20px;}
+   .menu-item:hover {color: black; background-color: white; flex-grow: 1.2; font-weight: 0.5;}
+   .menu-link {background-color: black; display: block ; text-align: center;}
+ 
+  
+ .contents {text-align: center; float: left; margin: 40; width: 676px; border: 1; border-color: white; height: 500;}
+
+ table, td, th {
+  border: 1px solid white;
+}
+
+table tr:hover {
+  background-color: rgb(0, 132, 255); color: aqua;
+}
+
+ a {text-decoration-line: none; color: white;}
+ 
+ body {color: white; font-size: x-large; display: block;}
+
+ h1 {margin: 0px, auto; text-align: center; display: inline;}
